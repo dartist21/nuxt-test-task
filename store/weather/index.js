@@ -13,6 +13,11 @@ export const actions = {
     const cities = await this.$axios.$get('/cities.json');
 
     commit('setCities', cities);
+  },
+  addCity({ getters, commit }, city) {
+    const newCities = [...getters.cities, city];
+
+    commit('setCities', newCities);
   }
 };
 
