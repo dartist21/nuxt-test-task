@@ -1,0 +1,56 @@
+[
+  {
+    "name": "London",
+    "temp": -7,
+    "wind": {
+      "speed": 123,
+      "direction": 123
+    },
+    "pressure": 123
+  },
+  {
+    "name": "Kyiv",
+    "temp": -7,
+    "wind": {
+      "speed": 123,
+      "direction": 123
+    },
+    "pressure": 123
+  },
+  {
+    "name": "Barcelona",
+    "temp": -7,
+    "wind": {
+      "speed": 123,
+      "direction": 123
+    },
+    "pressure": 123
+  },
+  {
+    "name": "Moscow",
+    "temp": -7,
+    "wind": {
+      "speed": 123,
+      "direction": 123
+    },
+    "pressure": 123
+  },
+  {
+    "name": "Minsk",
+    "temp": -7,
+    "wind": {
+      "speed": 123,
+      "direction": 123
+    },
+    "pressure": 123
+  },
+  {
+    "name": "Berlin",
+    "temp": -7,
+    "wind": {
+      "speed": 123,
+      "direction": 123
+    },
+    "pressure": 123
+  }
+]
