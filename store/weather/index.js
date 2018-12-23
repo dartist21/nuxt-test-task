@@ -18,6 +18,11 @@ export const actions = {
     const newCities = [...getters.cities, city];
 
     commit('setCities', newCities);
+  },
+  removeCity({ getters, commit }, idx) {
+    const newCities = getters.cities.filter((_, i) => i !== idx);
+
+    commit('setCities', newCities);
   }
 };
 
