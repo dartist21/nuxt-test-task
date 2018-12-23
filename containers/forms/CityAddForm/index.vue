@@ -35,17 +35,16 @@
 
         </v-flex>
         <v-btn
+          color="primary"
           @click="submit"
         >
           Add city
         </v-btn>
+
+        <v-btn @click="clear">clear</v-btn>
       </v-layout>
     </v-container>
 
-
-
-
-    <!-- <v-btn @click="clear">clear</v-btn> -->
   </v-form>
 </template>
 
@@ -76,6 +75,9 @@ export default {
       const city = cloneDeep(this.city);
       this.addCity(city);
 
+      this.clear();
+    },
+    clear() {
       this.$refs.form.reset();
     }
   }
