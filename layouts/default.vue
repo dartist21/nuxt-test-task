@@ -18,7 +18,7 @@
     <v-footer
       app
     >
-      <span>&copy; 2017</span>
+      <span class="ml-3">&copy; 2017</span>
     </v-footer>
   </v-app>
 </template>
