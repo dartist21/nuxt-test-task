@@ -1,56 +1,56 @@
 [
   {
     "name": "London",
-    "temp": -7,
+    "temp": "-7",
     "wind": {
-      "speed": 123,
-      "direction": 123
+      "speed": "4",
+      "direction": "west"
     },
-    "pressure": 123
+    "pressure": "744"
   },
   {
     "name": "Kyiv",
-    "temp": -7,
+    "temp": "-6",
     "wind": {
-      "speed": 123,
-      "direction": 123
+      "speed": "8",
+      "direction": "west"
     },
-    "pressure": 123
+    "pressure": "744"
   },
   {
     "name": "Barcelona",
-    "temp": -7,
+    "temp": "+15",
     "wind": {
-      "speed": 123,
-      "direction": 123
+      "speed": "4",
+      "direction": "east"
     },
-    "pressure": 123
+    "pressure": "743"
   },
   {
     "name": "Moscow",
-    "temp": -7,
+    "temp": "-7",
     "wind": {
-      "speed": 123,
-      "direction": 123
+      "speed": "4",
+      "direction": "west"
     },
-    "pressure": 123
+    "pressure": "742"
   },
   {
     "name": "Minsk",
-    "temp": -7,
+    "temp": "-9",
     "wind": {
-      "speed": 123,
-      "direction": 123
+      "speed": "7",
+      "direction": "east"
     },
-    "pressure": 123
+    "pressure": "741"
   },
   {
     "name": "Berlin",
-    "temp": -7,
+    "temp": "-3",
     "wind": {
-      "speed": 123,
-      "direction": 123
+      "speed": "4",
+      "direction": "west"
     },
-    "pressure": 123
+    "pressure": "744"
   }
 ]

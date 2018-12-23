@@ -10,7 +10,7 @@
       class="city"
     >
       <div>
-        {{ city.name }} / {{ city.temp }} / {{ city.wind.direction }} {{ city.wind.speed }}  / {{ city.pressure }}
+        {{ city.name }} / {{ city.temp }} °C / {{ city.wind.direction }} {{ city.wind.speed }}  / {{ city.pressure }}
       </div>
       <div>
         <v-btn
