@@ -13,12 +13,7 @@
 
       <v-card>
         <v-card-text>
-          <div
-            v-for="city in cities"
-            :key="city.name"
-          >
-            {{ city.name }} / {{ city.temp }} / {{ city.wind.direction }} {{ city.wind.speed }}  / {{ city.pressure }}
-          </div>
+          <CityList />
         </v-card-text>
       </v-card>
     </v-flex>
@@ -26,25 +21,21 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex';
+import { mapActions } from 'vuex';
 
 import CityAddForm from '@/containers/forms/CityAddForm';
+import CityList from '@/containers/blocks/CityList';
 
 export default {
   name: 'WeatherPage',
 
   components: {
-    CityAddForm
+    CityAddForm,
+    CityList
   },
 
   async fetch({ store, params }) {
     await store.dispatch('weather/fetchCities');
-  },
-
-  computed: {
-    ...mapGetters({
-      cities: 'weather/cities'
-    })
   }
 };
 </script>
