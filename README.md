@@ -1,7 +1,7 @@
 # nuxt-test-task
 
 > Nuxt test task
-> Demo https://dartist21-nuxt-weather-app.herokuapp.com/
+> https://dartist21-nuxt-weather-app.herokuapp.com/
 
 ## Build Setup
 
